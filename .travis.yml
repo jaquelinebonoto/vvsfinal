@@ -6,7 +6,5 @@ jdk:
 script: 
     - mvn clean package
     - mvn verify
-after_success:
-    - mvn coveralls:report
 after_failure:
     - mvn coveralls:report
