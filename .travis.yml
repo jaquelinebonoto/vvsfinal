@@ -1,10 +1,4 @@
 language: java
-services:
-    - docker
-jdk:
-    - oraclejdk11
-script: 
-    - mvn clean package
-    - mvn verify
-after_failure:
-    - mvn coveralls:report
+jdk: openjdk8
+after_success:
+  - mvn coveralls:report
