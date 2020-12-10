@@ -2,28 +2,20 @@ package ssi;
 
 import java.util.Scanner;
 
-/*
-*sort class
+/**
+*sort class.
 */
 public class Sort {
-
     /*how many times the class was instantiated*/
     private static int count;
 
-    /*constructor with count*/
-    public Sort(){
-        count++;
-    }
+    /*get counter*/
+    private Scanner scanner = new Scanner(System.in);
 
-    protected void finalize() throws Throwable {
-        count--;
-    } 
-
+    /*get counter*/
     public int getInstanceCount() {
         return count;
     }
-
-    private Scanner scanner = new Scanner(System.in);
 
     /**
      * Método que ordena um vetor de inteiros utilizando o algoritmo de Bubble Sort.
@@ -86,5 +78,4 @@ public class Sort {
             System.out.print(num + " ");
         }
     }
-    
 }

@@ -1,9 +1,14 @@
 package ssi;
 
-/*Main Class*/
+/**
+* Main Class.
+*/
+
 public final class App {
 
-    /*Empty Constructor*/
+    /**
+     * Empty Constructor.
+     * */
     private App() {
 
     }
