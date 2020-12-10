@@ -1,9 +1,16 @@
 package ssi;
+
 import java.util.Scanner;
+
+/*
+*sort class
+*/
 public class Sort {
 
-    protected static int count = 0;
+    /*how many times the class was instantiated*/
+    private static int count;
 
+    /*constructor with count*/
     public Sort(){
         count++;
     }

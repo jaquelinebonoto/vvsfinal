@@ -1,8 +1,9 @@
 package ssi;
 
-
-
+/*Main Class*/
 public final class App {
+
+    /*Empty Constructor*/
     private App() {
 
     }
